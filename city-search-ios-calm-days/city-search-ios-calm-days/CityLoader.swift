@@ -5,11 +5,9 @@ final class CityLoader: ObservableObject {
     @Published private(set) var citiesData = [City]()
     @Published var isLoading: Bool = false
     var onDataLoad: (() -> Void)?
-   
-    private let filename = "cities.txt"
     
     init() {
-        load("cities.txt") { result in
+        load("cities.json") { result in
             switch result {
             case .success(let cities):
                 DispatchQueue.main.async {
