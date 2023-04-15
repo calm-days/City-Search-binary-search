@@ -25,7 +25,7 @@ struct CityView: View {
             } else {
                 List {
                     //delete prefix later
-                    ForEach(filteredCities.prefix(100)) { city in
+                    ForEach(filteredCities) { city in
                         NavigationLink {
                             //CityDetailView(city: city)
                         } label: {
