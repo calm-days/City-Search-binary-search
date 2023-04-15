@@ -14,6 +14,8 @@
 		8E8CB03B29EAF5F4005AD765 /* city_search_ios_calm_daysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB03A29EAF5F4005AD765 /* city_search_ios_calm_daysTests.swift */; };
 		8E8CB04529EAF5F4005AD765 /* city_search_ios_calm_daysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB04429EAF5F4005AD765 /* city_search_ios_calm_daysUITests.swift */; };
 		8E8CB04729EAF5F4005AD765 /* city_search_ios_calm_daysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB04629EAF5F4005AD765 /* city_search_ios_calm_daysUITestsLaunchTests.swift */; };
+		8E8CB05429EAF690005AD765 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB05329EAF690005AD765 /* City.swift */; };
+		8E8CB05629EAF759005AD765 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CB05529EAF759005AD765 /* cities.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8E8CB04029EAF5F4005AD765 /* city-search-ios-calm-daysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "city-search-ios-calm-daysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8CB04429EAF5F4005AD765 /* city_search_ios_calm_daysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysUITests.swift; sourceTree = "<group>"; };
 		8E8CB04629EAF5F4005AD765 /* city_search_ios_calm_daysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E8CB05329EAF690005AD765 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		8E8CB05529EAF759005AD765 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				8E8CB02929EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift */,
 				8E8CB02B29EAF5F1005AD765 /* ContentView.swift */,
+				8E8CB05329EAF690005AD765 /* City.swift */,
+				8E8CB05529EAF759005AD765 /* cities.json */,
 				8E8CB02D29EAF5F3005AD765 /* Assets.xcassets */,
 				8E8CB02F29EAF5F3005AD765 /* Preview Content */,
 			);
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8CB05629EAF759005AD765 /* cities.json in Resources */,
 				8E8CB03129EAF5F3005AD765 /* Preview Assets.xcassets in Resources */,
 				8E8CB02E29EAF5F3005AD765 /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +266,7 @@
 			files = (
 				8E8CB02C29EAF5F1005AD765 /* ContentView.swift in Sources */,
 				8E8CB02A29EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift in Sources */,
+				8E8CB05429EAF690005AD765 /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

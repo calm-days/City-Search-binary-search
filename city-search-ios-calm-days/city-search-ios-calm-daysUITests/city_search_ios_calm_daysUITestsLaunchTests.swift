@@ -1,10 +1,3 @@
-//
-//  city_search_ios_calm_daysUITestsLaunchTests.swift
-//  city-search-ios-calm-daysUITests
-//
-//  Created by Roman Liukevich on 4/15/23.
-//
-
 import XCTest
 
 class city_search_ios_calm_daysUITestsLaunchTests: XCTestCase {
