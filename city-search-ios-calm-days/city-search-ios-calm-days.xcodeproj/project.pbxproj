@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E77298929EAEC23006A4304 /* city_search_ios_calm_daysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E77298829EAEC23006A4304 /* city_search_ios_calm_daysApp.swift */; };
+		8E77298B29EAEC23006A4304 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E77298A29EAEC23006A4304 /* ContentView.swift */; };
+		8E77298D29EAEC28006A4304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E77298C29EAEC28006A4304 /* Assets.xcassets */; };
+		8E77299029EAEC28006A4304 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E77298F29EAEC28006A4304 /* Preview Assets.xcassets */; };
+		8E77299A29EAEC28006A4304 /* city_search_ios_calm_daysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E77299929EAEC28006A4304 /* city_search_ios_calm_daysTests.swift */; };
+		8E7729B329EAEC7E006A4304 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E7729B229EAEC7E006A4304 /* cities.json */; };
+		8E7729BB29EAED31006A4304 /* city_search_ios_calm_daysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7729BA29EAED31006A4304 /* city_search_ios_calm_daysUITests.swift */; };
+		8E7729BD29EAED31006A4304 /* city_search_ios_calm_daysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7729BC29EAED31006A4304 /* city_search_ios_calm_daysUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E77299629EAEC28006A4304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E77297D29EAEC23006A4304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E77298429EAEC23006A4304;
+			remoteInfo = "city-search-ios-calm-days";
+		};
+		8E7729BE29EAED31006A4304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E77297D29EAEC23006A4304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E77298429EAEC23006A4304;
+			remoteInfo = "city-search-ios-calm-days";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E77298529EAEC23006A4304 /* city-search-ios-calm-days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "city-search-ios-calm-days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E77298829EAEC23006A4304 /* city_search_ios_calm_daysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysApp.swift; sourceTree = "<group>"; };
+		8E77298A29EAEC23006A4304 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E77298C29EAEC28006A4304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E77298F29EAEC28006A4304 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E77299529EAEC28006A4304 /* city-search-ios-calm-daysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "city-search-ios-calm-daysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E77299929EAEC28006A4304 /* city_search_ios_calm_daysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysTests.swift; sourceTree = "<group>"; };
+		8E7729B229EAEC7E006A4304 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cities.json; path = ../../cities.json; sourceTree = "<group>"; };
+		8E7729B829EAED31006A4304 /* city-search-ios-calm-daysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "city-search-ios-calm-daysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7729BA29EAED31006A4304 /* city_search_ios_calm_daysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysUITests.swift; sourceTree = "<group>"; };
+		8E7729BC29EAED31006A4304 /* city_search_ios_calm_daysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E77298229EAEC23006A4304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E77299229EAEC28006A4304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7729B529EAED31006A4304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E77297C29EAEC23006A4304 = {
+			isa = PBXGroup;
+			children = (
+				8E77298729EAEC23006A4304 /* city-search-ios-calm-days */,
+				8E77299829EAEC28006A4304 /* city-search-ios-calm-daysTests */,
+				8E7729B929EAED31006A4304 /* city-search-ios-calm-daysUITests */,
+				8E77298629EAEC23006A4304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E77298629EAEC23006A4304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E77298529EAEC23006A4304 /* city-search-ios-calm-days.app */,
+				8E77299529EAEC28006A4304 /* city-search-ios-calm-daysTests.xctest */,
+				8E7729B829EAED31006A4304 /* city-search-ios-calm-daysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E77298729EAEC23006A4304 /* city-search-ios-calm-days */ = {
+			isa = PBXGroup;
+			children = (
+				8E77298829EAEC23006A4304 /* city_search_ios_calm_daysApp.swift */,
+				8E77298A29EAEC23006A4304 /* ContentView.swift */,
+				8E7729B229EAEC7E006A4304 /* cities.json */,
+				8E77298C29EAEC28006A4304 /* Assets.xcassets */,
+				8E77298E29EAEC28006A4304 /* Preview Content */,
+			);
+			path = "city-search-ios-calm-days";
+			sourceTree = "<group>";
+		};
+		8E77298E29EAEC28006A4304 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E77298F29EAEC28006A4304 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E77299829EAEC28006A4304 /* city-search-ios-calm-daysTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E77299929EAEC28006A4304 /* city_search_ios_calm_daysTests.swift */,
+			);
+			path = "city-search-ios-calm-daysTests";
+			sourceTree = "<group>";
+		};
+		8E7729B929EAED31006A4304 /* city-search-ios-calm-daysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E7729BA29EAED31006A4304 /* city_search_ios_calm_daysUITests.swift */,
+				8E7729BC29EAED31006A4304 /* city_search_ios_calm_daysUITestsLaunchTests.swift */,
+			);
+			path = "city-search-ios-calm-daysUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E77298429EAEC23006A4304 /* city-search-ios-calm-days */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7729A929EAEC28006A4304 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-days" */;
+			buildPhases = (
+				8E77298129EAEC23006A4304 /* Sources */,
+				8E77298229EAEC23006A4304 /* Frameworks */,
+				8E77298329EAEC23006A4304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "city-search-ios-calm-days";
+			productName = "city-search-ios-calm-days";
+			productReference = 8E77298529EAEC23006A4304 /* city-search-ios-calm-days.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E77299429EAEC28006A4304 /* city-search-ios-calm-daysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7729AC29EAEC28006A4304 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysTests" */;
+			buildPhases = (
+				8E77299129EAEC28006A4304 /* Sources */,
+				8E77299229EAEC28006A4304 /* Frameworks */,
+				8E77299329EAEC28006A4304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E77299729EAEC28006A4304 /* PBXTargetDependency */,
+			);
+			name = "city-search-ios-calm-daysTests";
+			productName = "city-search-ios-calm-daysTests";
+			productReference = 8E77299529EAEC28006A4304 /* city-search-ios-calm-daysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E7729B729EAED31006A4304 /* city-search-ios-calm-daysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7729C029EAED31006A4304 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysUITests" */;
+			buildPhases = (
+				8E7729B429EAED31006A4304 /* Sources */,
+				8E7729B529EAED31006A4304 /* Frameworks */,
+				8E7729B629EAED31006A4304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E7729BF29EAED31006A4304 /* PBXTargetDependency */,
+			);
+			name = "city-search-ios-calm-daysUITests";
+			productName = "city-search-ios-calm-daysUITests";
+			productReference = 8E7729B829EAED31006A4304 /* city-search-ios-calm-daysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E77297D29EAEC23006A4304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8E77298429EAEC23006A4304 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8E77299429EAEC28006A4304 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8E77298429EAEC23006A4304;
+					};
+					8E7729B729EAED31006A4304 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8E77298429EAEC23006A4304;
+					};
+				};
+			};
+			buildConfigurationList = 8E77298029EAEC23006A4304 /* Build configuration list for PBXProject "city-search-ios-calm-days" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E77297C29EAEC23006A4304;
+			productRefGroup = 8E77298629EAEC23006A4304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E77298429EAEC23006A4304 /* city-search-ios-calm-days */,
+				8E77299429EAEC28006A4304 /* city-search-ios-calm-daysTests */,
+				8E7729B729EAED31006A4304 /* city-search-ios-calm-daysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E77298329EAEC23006A4304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7729B329EAEC7E006A4304 /* cities.json in Resources */,
+				8E77299029EAEC28006A4304 /* Preview Assets.xcassets in Resources */,
+				8E77298D29EAEC28006A4304 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E77299329EAEC28006A4304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7729B629EAED31006A4304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E77298129EAEC23006A4304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E77298B29EAEC23006A4304 /* ContentView.swift in Sources */,
+				8E77298929EAEC23006A4304 /* city_search_ios_calm_daysApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E77299129EAEC28006A4304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E77299A29EAEC28006A4304 /* city_search_ios_calm_daysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7729B429EAED31006A4304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7729BB29EAED31006A4304 /* city_search_ios_calm_daysUITests.swift in Sources */,
+				8E7729BD29EAED31006A4304 /* city_search_ios_calm_daysUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E77299729EAEC28006A4304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E77298429EAEC23006A4304 /* city-search-ios-calm-days */;
+			targetProxy = 8E77299629EAEC28006A4304 /* PBXContainerItemProxy */;
+		};
+		8E7729BF29EAED31006A4304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E77298429EAEC23006A4304 /* city-search-ios-calm-days */;
+			targetProxy = 8E7729BE29EAED31006A4304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E7729A729EAEC28006A4304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E7729A829EAEC28006A4304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E7729AA29EAEC28006A4304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"city-search-ios-calm-days/Preview Content\"";
+				DEVELOPMENT_TEAM = C493VDTW7S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calmdays.city-search-ios-calm-days";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E7729AB29EAEC28006A4304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"city-search-ios-calm-days/Preview Content\"";
+				DEVELOPMENT_TEAM = C493VDTW7S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calmdays.city-search-ios-calm-days";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E7729AD29EAEC28006A4304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C493VDTW7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calmdays.city-search-ios-calm-daysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/city-search-ios-calm-days.app/city-search-ios-calm-days";
+			};
+			name = Debug;
+		};
+		8E7729AE29EAEC28006A4304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C493VDTW7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calmdays.city-search-ios-calm-daysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/city-search-ios-calm-days.app/city-search-ios-calm-days";
+			};
+			name = Release;
+		};
+		8E7729C129EAED31006A4304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C493VDTW7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calmdays.city-search-ios-calm-daysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "city-search-ios-calm-days";
+			};
+			name = Debug;
+		};
+		8E7729C229EAED31006A4304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C493VDTW7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calmdays.city-search-ios-calm-daysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "city-search-ios-calm-days";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E77298029EAEC23006A4304 /* Build configuration list for PBXProject "city-search-ios-calm-days" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7729A729EAEC28006A4304 /* Debug */,
+				8E7729A829EAEC28006A4304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7729A929EAEC28006A4304 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-days" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7729AA29EAEC28006A4304 /* Debug */,
+				8E7729AB29EAEC28006A4304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7729AC29EAEC28006A4304 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7729AD29EAEC28006A4304 /* Debug */,
+				8E7729AE29EAEC28006A4304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7729C029EAED31006A4304 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7729C129EAED31006A4304 /* Debug */,
+				8E7729C229EAED31006A4304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E77297D29EAEC23006A4304 /* Project object */;
+}
