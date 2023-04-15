@@ -17,6 +17,8 @@
 		8E8CB05429EAF690005AD765 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB05329EAF690005AD765 /* City.swift */; };
 		8E8CB05629EAF759005AD765 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CB05529EAF759005AD765 /* cities.json */; };
 		8E8CB05829EAF776005AD765 /* CityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB05729EAF776005AD765 /* CityRow.swift */; };
+		8E8CB05C29EAF7F1005AD765 /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB05B29EAF7F1005AD765 /* CityListView.swift */; };
+		8E8CB05E29EAF825005AD765 /* CityLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB05D29EAF825005AD765 /* CityLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		8E8CB05329EAF690005AD765 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		8E8CB05529EAF759005AD765 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 		8E8CB05729EAF776005AD765 /* CityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRow.swift; sourceTree = "<group>"; };
+		8E8CB05B29EAF7F1005AD765 /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
+		8E8CB05D29EAF825005AD765 /* CityLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				8E8CB02B29EAF5F1005AD765 /* ContentView.swift */,
 				8E8CB05329EAF690005AD765 /* City.swift */,
 				8E8CB05729EAF776005AD765 /* CityRow.swift */,
+				8E8CB05B29EAF7F1005AD765 /* CityListView.swift */,
+				8E8CB05D29EAF825005AD765 /* CityLoader.swift */,
 				8E8CB05529EAF759005AD765 /* cities.json */,
 				8E8CB02D29EAF5F3005AD765 /* Assets.xcassets */,
 				8E8CB02F29EAF5F3005AD765 /* Preview Content */,
@@ -268,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E8CB02C29EAF5F1005AD765 /* ContentView.swift in Sources */,
+				8E8CB05C29EAF7F1005AD765 /* CityListView.swift in Sources */,
 				8E8CB05829EAF776005AD765 /* CityRow.swift in Sources */,
+				8E8CB05E29EAF825005AD765 /* CityLoader.swift in Sources */,
 				8E8CB02A29EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift in Sources */,
 				8E8CB05429EAF690005AD765 /* City.swift in Sources */,
 			);
