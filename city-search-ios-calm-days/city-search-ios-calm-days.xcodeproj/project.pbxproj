@@ -20,6 +20,7 @@
 		8E8CB05C29EAF7F1005AD765 /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB05B29EAF7F1005AD765 /* CityListView.swift */; };
 		8E8CB05E29EAF825005AD765 /* CityLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB05D29EAF825005AD765 /* CityLoader.swift */; };
 		8E8CB06129EAF9E0005AD765 /* CityDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB06029EAF9E0005AD765 /* CityDetailedView.swift */; };
+		8EB0060729EB08AA00378218 /* CityFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0060629EB08AA00378218 /* CityFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		8E8CB05B29EAF7F1005AD765 /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
 		8E8CB05D29EAF825005AD765 /* CityLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityLoader.swift; sourceTree = "<group>"; };
 		8E8CB06029EAF9E0005AD765 /* CityDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailedView.swift; sourceTree = "<group>"; };
+		8EB0060629EB08AA00378218 /* CityFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				8E8CB05B29EAF7F1005AD765 /* CityListView.swift */,
 				8E8CB05D29EAF825005AD765 /* CityLoader.swift */,
 				8E8CB06029EAF9E0005AD765 /* CityDetailedView.swift */,
+				8EB0060629EB08AA00378218 /* CityFilter.swift */,
 				8E8CB05529EAF759005AD765 /* cities.json */,
 				8E8CB02D29EAF5F3005AD765 /* Assets.xcassets */,
 				8E8CB02F29EAF5F3005AD765 /* Preview Content */,
@@ -278,6 +281,7 @@
 			files = (
 				8E8CB02C29EAF5F1005AD765 /* ContentView.swift in Sources */,
 				8E8CB06129EAF9E0005AD765 /* CityDetailedView.swift in Sources */,
+				8EB0060729EB08AA00378218 /* CityFilter.swift in Sources */,
 				8E8CB05C29EAF7F1005AD765 /* CityListView.swift in Sources */,
 				8E8CB05829EAF776005AD765 /* CityRow.swift in Sources */,
 				8E8CB05E29EAF825005AD765 /* CityLoader.swift in Sources */,
