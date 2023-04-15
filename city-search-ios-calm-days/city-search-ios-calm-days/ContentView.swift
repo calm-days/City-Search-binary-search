@@ -2,8 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        CityView()
     }
 }
 
@@ -12,3 +11,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
