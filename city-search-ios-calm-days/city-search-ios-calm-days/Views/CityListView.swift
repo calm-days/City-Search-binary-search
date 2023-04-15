@@ -3,17 +3,10 @@ import SwiftUI
 struct CityView: View {
     @ObservedObject private var cityLoader = CityLoader()
     @State private var searchText = ""
+    @State private var cityFilter = CityFilter()
     
     private var filteredCities: [City] {
-        if searchText.isEmpty {
-            // Tuple comparison – starts comparing the first elements of both tuples,
-            // and if they are equal, it moves on to compare the second elements.
-            return cityLoader.citiesData.sorted { ($0.name, $0.country) < ($1.name, $1.country) }
-        } else {
-            return cityLoader.citiesData
-                .filter { $0.name.contains(searchText) }
-                .sorted { ($0.name, $0.country) < ($1.name, $1.country) }
-        }
+        return cityFilter.filteredCities(cityLoader: cityLoader, searchText: searchText)
     }
     
     var body: some View {
@@ -27,7 +20,7 @@ struct CityView: View {
                     //delete prefix later
                     ForEach(filteredCities) { city in
                         NavigationLink {
-                            //CityDetailView(city: city)
+                            CityDetailedView(city: city)
                         } label: {
                             CityRow(city: city)
                         }

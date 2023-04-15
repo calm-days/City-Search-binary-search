@@ -110,13 +110,10 @@
 			children = (
 				8E8CB02929EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift */,
 				8E8CB02B29EAF5F1005AD765 /* ContentView.swift */,
-				8E8CB05329EAF690005AD765 /* City.swift */,
-				8E8CB05729EAF776005AD765 /* CityRow.swift */,
-				8E8CB05B29EAF7F1005AD765 /* CityListView.swift */,
-				8E8CB05D29EAF825005AD765 /* CityLoader.swift */,
-				8E8CB06029EAF9E0005AD765 /* CityDetailedView.swift */,
-				8EB0060629EB08AA00378218 /* CityFilter.swift */,
-				8E8CB05529EAF759005AD765 /* cities.json */,
+				8EB0060829EB09C500378218 /* Models */,
+				8EB0060929EB09CB00378218 /* Views */,
+				8EB0060A29EB09D600378218 /* ViewModels */,
+				8EB0060B29EB09E500378218 /* Resources */,
 				8E8CB02D29EAF5F3005AD765 /* Assets.xcassets */,
 				8E8CB02F29EAF5F3005AD765 /* Preview Content */,
 			);
@@ -146,6 +143,41 @@
 				8E8CB04629EAF5F4005AD765 /* city_search_ios_calm_daysUITestsLaunchTests.swift */,
 			);
 			path = "city-search-ios-calm-daysUITests";
+			sourceTree = "<group>";
+		};
+		8EB0060829EB09C500378218 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E8CB05329EAF690005AD765 /* City.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EB0060929EB09CB00378218 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E8CB05729EAF776005AD765 /* CityRow.swift */,
+				8E8CB05B29EAF7F1005AD765 /* CityListView.swift */,
+				8E8CB06029EAF9E0005AD765 /* CityDetailedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EB0060A29EB09D600378218 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8EB0060629EB08AA00378218 /* CityFilter.swift */,
+				8E8CB05D29EAF825005AD765 /* CityLoader.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8EB0060B29EB09E500378218 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E8CB05529EAF759005AD765 /* cities.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
