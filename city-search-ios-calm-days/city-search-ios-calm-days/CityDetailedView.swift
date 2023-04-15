@@ -1,7 +1,7 @@
 import SwiftUI
 import MapKit
 
-struct CityDetailView: View {
+struct CityDetailedView: View {
     var city: City
     @State private var mapRegion: MKCoordinateRegion
     
