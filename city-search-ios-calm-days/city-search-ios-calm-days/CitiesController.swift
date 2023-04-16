@@ -88,7 +88,7 @@ class CitiesController {
         }
         
         //Printing speed of filtering
-        print("seconds: \(Date().timeIntervalSince(startDate)) - filtering prefix: \(searchQuery)")
+        print("time of filtering: \(Date().timeIntervalSince(startDate)) - with prefix: \(searchQuery)")
     }
     
     // Method to update the search results range based on the provided search query
