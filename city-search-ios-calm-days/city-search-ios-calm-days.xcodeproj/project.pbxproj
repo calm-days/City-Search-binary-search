@@ -7,79 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E5D398C29ECAF9F00D90C94 /* CityFilteredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D398B29ECAF9F00D90C94 /* CityFilteredTests.swift */; };
-		8E8CB02A29EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB02929EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift */; };
-		8E8CB02C29EAF5F1005AD765 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB02B29EAF5F1005AD765 /* ContentView.swift */; };
-		8E8CB02E29EAF5F3005AD765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CB02D29EAF5F3005AD765 /* Assets.xcassets */; };
-		8E8CB03129EAF5F3005AD765 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CB03029EAF5F3005AD765 /* Preview Assets.xcassets */; };
-		8E8CB03B29EAF5F4005AD765 /* city_search_ios_calm_daysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB03A29EAF5F4005AD765 /* city_search_ios_calm_daysTests.swift */; };
-		8E8CB04529EAF5F4005AD765 /* city_search_ios_calm_daysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB04429EAF5F4005AD765 /* city_search_ios_calm_daysUITests.swift */; };
-		8E8CB04729EAF5F4005AD765 /* city_search_ios_calm_daysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB04629EAF5F4005AD765 /* city_search_ios_calm_daysUITestsLaunchTests.swift */; };
-		8E8CB05429EAF690005AD765 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB05329EAF690005AD765 /* City.swift */; };
-		8E8CB05629EAF759005AD765 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CB05529EAF759005AD765 /* cities.json */; };
-		8E8CB05829EAF776005AD765 /* CityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB05729EAF776005AD765 /* CityRow.swift */; };
-		8E8CB05C29EAF7F1005AD765 /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB05B29EAF7F1005AD765 /* CityListView.swift */; };
-		8E8CB05E29EAF825005AD765 /* CityLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB05D29EAF825005AD765 /* CityLoader.swift */; };
-		8E8CB06129EAF9E0005AD765 /* CityDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB06029EAF9E0005AD765 /* CityDetailedView.swift */; };
-		8EB0060729EB08AA00378218 /* CityFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0060629EB08AA00378218 /* CityFilter.swift */; };
-		8EB0060D29EB1E7F00378218 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0060C29EB1E7F00378218 /* Trie.swift */; };
+		8E5D399A29ECB29500D90C94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D399929ECB29500D90C94 /* AppDelegate.swift */; };
+		8E5D399C29ECB29500D90C94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D399B29ECB29500D90C94 /* SceneDelegate.swift */; };
+		8E5D399E29ECB29500D90C94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D399D29ECB29500D90C94 /* ViewController.swift */; };
+		8E5D39A129ECB29500D90C94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5D399F29ECB29500D90C94 /* Main.storyboard */; };
+		8E5D39A329ECB29900D90C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5D39A229ECB29900D90C94 /* Assets.xcassets */; };
+		8E5D39A629ECB29900D90C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5D39A429ECB29900D90C94 /* LaunchScreen.storyboard */; };
+		8E5D39B129ECB29900D90C94 /* city_search_ios_calm_daysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39B029ECB29900D90C94 /* city_search_ios_calm_daysTests.swift */; };
+		8E5D39BB29ECB29900D90C94 /* city_search_ios_calm_daysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39BA29ECB29900D90C94 /* city_search_ios_calm_daysUITests.swift */; };
+		8E5D39BD29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39BC29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8E8CB03729EAF5F4005AD765 /* PBXContainerItemProxy */ = {
+		8E5D39AD29ECB29900D90C94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E8CB01E29EAF5F1005AD765 /* Project object */;
+			containerPortal = 8E5D398E29ECB29500D90C94 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E8CB02529EAF5F1005AD765;
+			remoteGlobalIDString = 8E5D399529ECB29500D90C94;
 			remoteInfo = "city-search-ios-calm-days";
 		};
-		8E8CB04129EAF5F4005AD765 /* PBXContainerItemProxy */ = {
+		8E5D39B729ECB29900D90C94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E8CB01E29EAF5F1005AD765 /* Project object */;
+			containerPortal = 8E5D398E29ECB29500D90C94 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E8CB02529EAF5F1005AD765;
+			remoteGlobalIDString = 8E5D399529ECB29500D90C94;
 			remoteInfo = "city-search-ios-calm-days";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E5D398B29ECAF9F00D90C94 /* CityFilteredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityFilteredTests.swift; sourceTree = "<group>"; };
-		8E8CB02629EAF5F1005AD765 /* city-search-ios-calm-days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "city-search-ios-calm-days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8CB02929EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysApp.swift; sourceTree = "<group>"; };
-		8E8CB02B29EAF5F1005AD765 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8E8CB02D29EAF5F3005AD765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E8CB03029EAF5F3005AD765 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8E8CB03629EAF5F4005AD765 /* city-search-ios-calm-daysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "city-search-ios-calm-daysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8CB03A29EAF5F4005AD765 /* city_search_ios_calm_daysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysTests.swift; sourceTree = "<group>"; };
-		8E8CB04029EAF5F4005AD765 /* city-search-ios-calm-daysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "city-search-ios-calm-daysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8CB04429EAF5F4005AD765 /* city_search_ios_calm_daysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysUITests.swift; sourceTree = "<group>"; };
-		8E8CB04629EAF5F4005AD765 /* city_search_ios_calm_daysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8E8CB05329EAF690005AD765 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
-		8E8CB05529EAF759005AD765 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
-		8E8CB05729EAF776005AD765 /* CityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRow.swift; sourceTree = "<group>"; };
-		8E8CB05B29EAF7F1005AD765 /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
-		8E8CB05D29EAF825005AD765 /* CityLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityLoader.swift; sourceTree = "<group>"; };
-		8E8CB06029EAF9E0005AD765 /* CityDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailedView.swift; sourceTree = "<group>"; };
-		8EB0060629EB08AA00378218 /* CityFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityFilter.swift; sourceTree = "<group>"; };
-		8EB0060C29EB1E7F00378218 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		8E5D399629ECB29500D90C94 /* city-search-ios-calm-days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "city-search-ios-calm-days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5D399929ECB29500D90C94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E5D399B29ECB29500D90C94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E5D399D29ECB29500D90C94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E5D39A029ECB29500D90C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E5D39A229ECB29900D90C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E5D39A529ECB29900D90C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E5D39A729ECB29900D90C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5D39AC29ECB29900D90C94 /* city-search-ios-calm-daysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "city-search-ios-calm-daysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5D39B029ECB29900D90C94 /* city_search_ios_calm_daysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysTests.swift; sourceTree = "<group>"; };
+		8E5D39B629ECB29900D90C94 /* city-search-ios-calm-daysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "city-search-ios-calm-daysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5D39BA29ECB29900D90C94 /* city_search_ios_calm_daysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysUITests.swift; sourceTree = "<group>"; };
+		8E5D39BC29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E8CB02329EAF5F1005AD765 /* Frameworks */ = {
+		8E5D399329ECB29500D90C94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8CB03329EAF5F4005AD765 /* Frameworks */ = {
+		8E5D39A929ECB29900D90C94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8CB03D29EAF5F4005AD765 /* Frameworks */ = {
+		8E5D39B329ECB29900D90C94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,113 +76,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E8CB01D29EAF5F1005AD765 = {
+		8E5D398D29ECB29500D90C94 = {
 			isa = PBXGroup;
 			children = (
-				8E8CB02829EAF5F1005AD765 /* city-search-ios-calm-days */,
-				8E8CB03929EAF5F4005AD765 /* city-search-ios-calm-daysTests */,
-				8E8CB04329EAF5F4005AD765 /* city-search-ios-calm-daysUITests */,
-				8E8CB02729EAF5F1005AD765 /* Products */,
+				8E5D399829ECB29500D90C94 /* city-search-ios-calm-days */,
+				8E5D39AF29ECB29900D90C94 /* city-search-ios-calm-daysTests */,
+				8E5D39B929ECB29900D90C94 /* city-search-ios-calm-daysUITests */,
+				8E5D399729ECB29500D90C94 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8E8CB02729EAF5F1005AD765 /* Products */ = {
+		8E5D399729ECB29500D90C94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E8CB02629EAF5F1005AD765 /* city-search-ios-calm-days.app */,
-				8E8CB03629EAF5F4005AD765 /* city-search-ios-calm-daysTests.xctest */,
-				8E8CB04029EAF5F4005AD765 /* city-search-ios-calm-daysUITests.xctest */,
+				8E5D399629ECB29500D90C94 /* city-search-ios-calm-days.app */,
+				8E5D39AC29ECB29900D90C94 /* city-search-ios-calm-daysTests.xctest */,
+				8E5D39B629ECB29900D90C94 /* city-search-ios-calm-daysUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E8CB02829EAF5F1005AD765 /* city-search-ios-calm-days */ = {
+		8E5D399829ECB29500D90C94 /* city-search-ios-calm-days */ = {
 			isa = PBXGroup;
 			children = (
-				8E8CB02929EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift */,
-				8E8CB02B29EAF5F1005AD765 /* ContentView.swift */,
-				8EB0060829EB09C500378218 /* Models */,
-				8EB0060929EB09CB00378218 /* Views */,
-				8EB0060A29EB09D600378218 /* ViewModels */,
-				8EB0060B29EB09E500378218 /* Resources */,
-				8E8CB02D29EAF5F3005AD765 /* Assets.xcassets */,
-				8E8CB02F29EAF5F3005AD765 /* Preview Content */,
+				8E5D399929ECB29500D90C94 /* AppDelegate.swift */,
+				8E5D399B29ECB29500D90C94 /* SceneDelegate.swift */,
+				8E5D399D29ECB29500D90C94 /* ViewController.swift */,
+				8E5D399F29ECB29500D90C94 /* Main.storyboard */,
+				8E5D39A229ECB29900D90C94 /* Assets.xcassets */,
+				8E5D39A429ECB29900D90C94 /* LaunchScreen.storyboard */,
+				8E5D39A729ECB29900D90C94 /* Info.plist */,
 			);
 			path = "city-search-ios-calm-days";
 			sourceTree = "<group>";
 		};
-		8E8CB02F29EAF5F3005AD765 /* Preview Content */ = {
+		8E5D39AF29ECB29900D90C94 /* city-search-ios-calm-daysTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E8CB03029EAF5F3005AD765 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8E8CB03929EAF5F4005AD765 /* city-search-ios-calm-daysTests */ = {
-			isa = PBXGroup;
-			children = (
-				8E8CB03A29EAF5F4005AD765 /* city_search_ios_calm_daysTests.swift */,
-				8E5D398B29ECAF9F00D90C94 /* CityFilteredTests.swift */,
+				8E5D39B029ECB29900D90C94 /* city_search_ios_calm_daysTests.swift */,
 			);
 			path = "city-search-ios-calm-daysTests";
 			sourceTree = "<group>";
 		};
-		8E8CB04329EAF5F4005AD765 /* city-search-ios-calm-daysUITests */ = {
+		8E5D39B929ECB29900D90C94 /* city-search-ios-calm-daysUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8E8CB04429EAF5F4005AD765 /* city_search_ios_calm_daysUITests.swift */,
-				8E8CB04629EAF5F4005AD765 /* city_search_ios_calm_daysUITestsLaunchTests.swift */,
+				8E5D39BA29ECB29900D90C94 /* city_search_ios_calm_daysUITests.swift */,
+				8E5D39BC29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift */,
 			);
 			path = "city-search-ios-calm-daysUITests";
-			sourceTree = "<group>";
-		};
-		8EB0060829EB09C500378218 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				8E8CB05329EAF690005AD765 /* City.swift */,
-				8EB0060C29EB1E7F00378218 /* Trie.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		8EB0060929EB09CB00378218 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				8E8CB05729EAF776005AD765 /* CityRow.swift */,
-				8E8CB05B29EAF7F1005AD765 /* CityListView.swift */,
-				8E8CB06029EAF9E0005AD765 /* CityDetailedView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		8EB0060A29EB09D600378218 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				8EB0060629EB08AA00378218 /* CityFilter.swift */,
-				8E8CB05D29EAF825005AD765 /* CityLoader.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		8EB0060B29EB09E500378218 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8E8CB05529EAF759005AD765 /* cities.json */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E8CB02529EAF5F1005AD765 /* city-search-ios-calm-days */ = {
+		8E5D399529ECB29500D90C94 /* city-search-ios-calm-days */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E8CB04A29EAF5F4005AD765 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-days" */;
+			buildConfigurationList = 8E5D39C029ECB29900D90C94 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-days" */;
 			buildPhases = (
-				8E8CB02229EAF5F1005AD765 /* Sources */,
-				8E8CB02329EAF5F1005AD765 /* Frameworks */,
-				8E8CB02429EAF5F1005AD765 /* Resources */,
+				8E5D399229ECB29500D90C94 /* Sources */,
+				8E5D399329ECB29500D90C94 /* Frameworks */,
+				8E5D399429ECB29500D90C94 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -203,69 +144,69 @@
 			);
 			name = "city-search-ios-calm-days";
 			productName = "city-search-ios-calm-days";
-			productReference = 8E8CB02629EAF5F1005AD765 /* city-search-ios-calm-days.app */;
+			productReference = 8E5D399629ECB29500D90C94 /* city-search-ios-calm-days.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8E8CB03529EAF5F4005AD765 /* city-search-ios-calm-daysTests */ = {
+		8E5D39AB29ECB29900D90C94 /* city-search-ios-calm-daysTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E8CB04D29EAF5F4005AD765 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysTests" */;
+			buildConfigurationList = 8E5D39C329ECB29900D90C94 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysTests" */;
 			buildPhases = (
-				8E8CB03229EAF5F4005AD765 /* Sources */,
-				8E8CB03329EAF5F4005AD765 /* Frameworks */,
-				8E8CB03429EAF5F4005AD765 /* Resources */,
+				8E5D39A829ECB29900D90C94 /* Sources */,
+				8E5D39A929ECB29900D90C94 /* Frameworks */,
+				8E5D39AA29ECB29900D90C94 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E8CB03829EAF5F4005AD765 /* PBXTargetDependency */,
+				8E5D39AE29ECB29900D90C94 /* PBXTargetDependency */,
 			);
 			name = "city-search-ios-calm-daysTests";
 			productName = "city-search-ios-calm-daysTests";
-			productReference = 8E8CB03629EAF5F4005AD765 /* city-search-ios-calm-daysTests.xctest */;
+			productReference = 8E5D39AC29ECB29900D90C94 /* city-search-ios-calm-daysTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8E8CB03F29EAF5F4005AD765 /* city-search-ios-calm-daysUITests */ = {
+		8E5D39B529ECB29900D90C94 /* city-search-ios-calm-daysUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E8CB05029EAF5F4005AD765 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysUITests" */;
+			buildConfigurationList = 8E5D39C629ECB29900D90C94 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysUITests" */;
 			buildPhases = (
-				8E8CB03C29EAF5F4005AD765 /* Sources */,
-				8E8CB03D29EAF5F4005AD765 /* Frameworks */,
-				8E8CB03E29EAF5F4005AD765 /* Resources */,
+				8E5D39B229ECB29900D90C94 /* Sources */,
+				8E5D39B329ECB29900D90C94 /* Frameworks */,
+				8E5D39B429ECB29900D90C94 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E8CB04229EAF5F4005AD765 /* PBXTargetDependency */,
+				8E5D39B829ECB29900D90C94 /* PBXTargetDependency */,
 			);
 			name = "city-search-ios-calm-daysUITests";
 			productName = "city-search-ios-calm-daysUITests";
-			productReference = 8E8CB04029EAF5F4005AD765 /* city-search-ios-calm-daysUITests.xctest */;
+			productReference = 8E5D39B629ECB29900D90C94 /* city-search-ios-calm-daysUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8E8CB01E29EAF5F1005AD765 /* Project object */ = {
+		8E5D398E29ECB29500D90C94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					8E8CB02529EAF5F1005AD765 = {
+					8E5D399529ECB29500D90C94 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
-					8E8CB03529EAF5F4005AD765 = {
+					8E5D39AB29ECB29900D90C94 = {
 						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 8E8CB02529EAF5F1005AD765;
+						TestTargetID = 8E5D399529ECB29500D90C94;
 					};
-					8E8CB03F29EAF5F4005AD765 = {
+					8E5D39B529ECB29900D90C94 = {
 						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 8E8CB02529EAF5F1005AD765;
+						TestTargetID = 8E5D399529ECB29500D90C94;
 					};
 				};
 			};
-			buildConfigurationList = 8E8CB02129EAF5F1005AD765 /* Build configuration list for PBXProject "city-search-ios-calm-days" */;
+			buildConfigurationList = 8E5D399129ECB29500D90C94 /* Build configuration list for PBXProject "city-search-ios-calm-days" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 8E8CB01D29EAF5F1005AD765;
-			productRefGroup = 8E8CB02729EAF5F1005AD765 /* Products */;
+			mainGroup = 8E5D398D29ECB29500D90C94;
+			productRefGroup = 8E5D399729ECB29500D90C94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E8CB02529EAF5F1005AD765 /* city-search-ios-calm-days */,
-				8E8CB03529EAF5F4005AD765 /* city-search-ios-calm-daysTests */,
-				8E8CB03F29EAF5F4005AD765 /* city-search-ios-calm-daysUITests */,
+				8E5D399529ECB29500D90C94 /* city-search-ios-calm-days */,
+				8E5D39AB29ECB29900D90C94 /* city-search-ios-calm-daysTests */,
+				8E5D39B529ECB29900D90C94 /* city-search-ios-calm-daysUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8E8CB02429EAF5F1005AD765 /* Resources */ = {
+		8E5D399429ECB29500D90C94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8CB05629EAF759005AD765 /* cities.json in Resources */,
-				8E8CB03129EAF5F3005AD765 /* Preview Assets.xcassets in Resources */,
-				8E8CB02E29EAF5F3005AD765 /* Assets.xcassets in Resources */,
+				8E5D39A629ECB29900D90C94 /* LaunchScreen.storyboard in Resources */,
+				8E5D39A329ECB29900D90C94 /* Assets.xcassets in Resources */,
+				8E5D39A129ECB29500D90C94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8CB03429EAF5F4005AD765 /* Resources */ = {
+		8E5D39AA29ECB29900D90C94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8CB03E29EAF5F4005AD765 /* Resources */ = {
+		8E5D39B429ECB29900D90C94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,57 +254,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E8CB02229EAF5F1005AD765 /* Sources */ = {
+		8E5D399229ECB29500D90C94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8CB02C29EAF5F1005AD765 /* ContentView.swift in Sources */,
-				8E8CB06129EAF9E0005AD765 /* CityDetailedView.swift in Sources */,
-				8EB0060729EB08AA00378218 /* CityFilter.swift in Sources */,
-				8EB0060D29EB1E7F00378218 /* Trie.swift in Sources */,
-				8E8CB05C29EAF7F1005AD765 /* CityListView.swift in Sources */,
-				8E8CB05829EAF776005AD765 /* CityRow.swift in Sources */,
-				8E8CB05E29EAF825005AD765 /* CityLoader.swift in Sources */,
-				8E8CB02A29EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift in Sources */,
-				8E8CB05429EAF690005AD765 /* City.swift in Sources */,
+				8E5D399E29ECB29500D90C94 /* ViewController.swift in Sources */,
+				8E5D399A29ECB29500D90C94 /* AppDelegate.swift in Sources */,
+				8E5D399C29ECB29500D90C94 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8CB03229EAF5F4005AD765 /* Sources */ = {
+		8E5D39A829ECB29900D90C94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8CB03B29EAF5F4005AD765 /* city_search_ios_calm_daysTests.swift in Sources */,
-				8E5D398C29ECAF9F00D90C94 /* CityFilteredTests.swift in Sources */,
+				8E5D39B129ECB29900D90C94 /* city_search_ios_calm_daysTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8CB03C29EAF5F4005AD765 /* Sources */ = {
+		8E5D39B229ECB29900D90C94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8CB04529EAF5F4005AD765 /* city_search_ios_calm_daysUITests.swift in Sources */,
-				8E8CB04729EAF5F4005AD765 /* city_search_ios_calm_daysUITestsLaunchTests.swift in Sources */,
+				8E5D39BB29ECB29900D90C94 /* city_search_ios_calm_daysUITests.swift in Sources */,
+				8E5D39BD29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8E8CB03829EAF5F4005AD765 /* PBXTargetDependency */ = {
+		8E5D39AE29ECB29900D90C94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E8CB02529EAF5F1005AD765 /* city-search-ios-calm-days */;
-			targetProxy = 8E8CB03729EAF5F4005AD765 /* PBXContainerItemProxy */;
+			target = 8E5D399529ECB29500D90C94 /* city-search-ios-calm-days */;
+			targetProxy = 8E5D39AD29ECB29900D90C94 /* PBXContainerItemProxy */;
 		};
-		8E8CB04229EAF5F4005AD765 /* PBXTargetDependency */ = {
+		8E5D39B829ECB29900D90C94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E8CB02529EAF5F1005AD765 /* city-search-ios-calm-days */;
-			targetProxy = 8E8CB04129EAF5F4005AD765 /* PBXContainerItemProxy */;
+			target = 8E5D399529ECB29500D90C94 /* city-search-ios-calm-days */;
+			targetProxy = 8E5D39B729ECB29900D90C94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		8E5D399F29ECB29500D90C94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5D39A029ECB29500D90C94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E5D39A429ECB29900D90C94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5D39A529ECB29900D90C94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		8E8CB04829EAF5F4005AD765 /* Debug */ = {
+		8E5D39BE29ECB29900D90C94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -423,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		8E8CB04929EAF5F4005AD765 /* Release */ = {
+		8E5D39BF29ECB29900D90C94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -477,20 +430,19 @@
 			};
 			name = Release;
 		};
-		8E8CB04B29EAF5F4005AD765 /* Debug */ = {
+		8E5D39C129ECB29900D90C94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"city-search-ios-calm-days/Preview Content\"";
 				DEVELOPMENT_TEAM = C493VDTW7S;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "city-search-ios-calm-days/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,20 +458,19 @@
 			};
 			name = Debug;
 		};
-		8E8CB04C29EAF5F4005AD765 /* Release */ = {
+		8E5D39C229ECB29900D90C94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"city-search-ios-calm-days/Preview Content\"";
 				DEVELOPMENT_TEAM = C493VDTW7S;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "city-search-ios-calm-days/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -535,7 +486,7 @@
 			};
 			name = Release;
 		};
-		8E8CB04E29EAF5F4005AD765 /* Debug */ = {
+		8E5D39C429ECB29900D90C94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,7 +506,7 @@
 			};
 			name = Debug;
 		};
-		8E8CB04F29EAF5F4005AD765 /* Release */ = {
+		8E5D39C529ECB29900D90C94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -575,7 +526,7 @@
 			};
 			name = Release;
 		};
-		8E8CB05129EAF5F4005AD765 /* Debug */ = {
+		8E5D39C729ECB29900D90C94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -593,7 +544,7 @@
 			};
 			name = Debug;
 		};
-		8E8CB05229EAF5F4005AD765 /* Release */ = {
+		8E5D39C829ECB29900D90C94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -614,43 +565,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E8CB02129EAF5F1005AD765 /* Build configuration list for PBXProject "city-search-ios-calm-days" */ = {
+		8E5D399129ECB29500D90C94 /* Build configuration list for PBXProject "city-search-ios-calm-days" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E8CB04829EAF5F4005AD765 /* Debug */,
-				8E8CB04929EAF5F4005AD765 /* Release */,
+				8E5D39BE29ECB29900D90C94 /* Debug */,
+				8E5D39BF29ECB29900D90C94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E8CB04A29EAF5F4005AD765 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-days" */ = {
+		8E5D39C029ECB29900D90C94 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-days" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E8CB04B29EAF5F4005AD765 /* Debug */,
-				8E8CB04C29EAF5F4005AD765 /* Release */,
+				8E5D39C129ECB29900D90C94 /* Debug */,
+				8E5D39C229ECB29900D90C94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E8CB04D29EAF5F4005AD765 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysTests" */ = {
+		8E5D39C329ECB29900D90C94 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E8CB04E29EAF5F4005AD765 /* Debug */,
-				8E8CB04F29EAF5F4005AD765 /* Release */,
+				8E5D39C429ECB29900D90C94 /* Debug */,
+				8E5D39C529ECB29900D90C94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E8CB05029EAF5F4005AD765 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysUITests" */ = {
+		8E5D39C629ECB29900D90C94 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E8CB05129EAF5F4005AD765 /* Debug */,
-				8E8CB05229EAF5F4005AD765 /* Release */,
+				8E5D39C729ECB29900D90C94 /* Debug */,
+				8E5D39C829ECB29900D90C94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8E8CB01E29EAF5F1005AD765 /* Project object */;
+	rootObject = 8E5D398E29ECB29500D90C94 /* Project object */;
 }

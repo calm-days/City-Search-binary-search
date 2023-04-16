@@ -27,6 +27,3 @@ class city_search_ios_calm_daysTests: XCTestCase {
     }
 
 }
-
-
-
