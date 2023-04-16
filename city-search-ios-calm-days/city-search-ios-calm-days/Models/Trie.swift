@@ -14,6 +14,8 @@ class Trie {
         
         // Iterate through each character in the lowercase city name
         for char in key.lowercased() {
+            precondition(!key.isEmpty, "City name should not be empty.")
+            
             // If the current node doesn't have the character as a child, create a new TrieNode for the character
             if currentNode.children[char] == nil {
                 currentNode.children[char] = TrieNode()

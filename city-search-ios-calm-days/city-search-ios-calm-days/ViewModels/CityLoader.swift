@@ -2,9 +2,11 @@ import Foundation
 import Combine
 
 final class CityLoader: ObservableObject {
+    private let filename = "cities.json"
     @Published private(set) var citiesData = [City]()
     @Published var isLoading: Bool = false
     var onDataLoad: (() -> Void)?
+    var trie = Trie()
     
     init() {
         load("cities.json") { result in
@@ -13,12 +15,19 @@ final class CityLoader: ObservableObject {
                 DispatchQueue.main.async {
                     self.citiesData = cities
                     self.onDataLoad?()
+                    self.populateTrie(with: cities)
                 }
                 
             case .failure(let error):
                 print("Error: \(error)")
                 // Handle the error appropriately, e.g., show an alert or a message to the user
             }
+        }
+    }
+    
+    private func populateTrie(with cities: [City]) {
+        for city in cities {
+            trie.insert(city, key: city.name)
         }
     }
     
@@ -29,7 +38,6 @@ final class CityLoader: ObservableObject {
         case parseFailed(String, Error)
     }
     
-    // This function loads data from a given file and handles errors using a completion closure
     private func load(_ filename: String, completion: @escaping (Result<[City], LoadError>) -> Void) {
         isLoading = true
         
@@ -72,6 +80,33 @@ final class CityLoader: ObservableObject {
             DispatchQueue.main.async {
                 completion(result)
                 self.isLoading = false
+            }
+        }
+    }
+    
+    //for testing
+    init(cities: [City]? = nil) {
+        if let cities = cities {
+            self.citiesData = cities
+            self.populateTrie(with: cities)
+        } else {
+            load(filename) { result in
+                // ...
+                switch result {
+                case .success(let cities):
+                    self.isLoading = false
+                    
+                    DispatchQueue.main.async {
+                        self.citiesData = cities
+                        self.populateTrie(with: cities)
+                        self.onDataLoad?()
+                        self.isLoading = false
+                    }
+                    
+                case .failure(let error):
+                    print("Error: \(error)")
+                    // Handle the error appropriately
+                }
             }
         }
     }

@@ -16,10 +16,7 @@ struct City: Identifiable {
         City(id: 123, country: "N/A", name: "N/A", coord: Coord(lon: 0.0, lat: 0.0))
     }
     
-    struct Coord: Codable {
-        let lon: Double
-        let lat: Double
-    }
+    
 }
 
 extension City: Codable {
@@ -33,5 +30,7 @@ extension City: Codable {
     }
 }
 
-
-
+struct Coord: Codable {
+    let lon: Double
+    let lat: Double
+}

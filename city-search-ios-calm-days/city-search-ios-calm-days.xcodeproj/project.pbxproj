@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E5D398C29ECAF9F00D90C94 /* CityFilteredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D398B29ECAF9F00D90C94 /* CityFilteredTests.swift */; };
 		8E8CB02A29EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB02929EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift */; };
 		8E8CB02C29EAF5F1005AD765 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CB02B29EAF5F1005AD765 /* ContentView.swift */; };
 		8E8CB02E29EAF5F3005AD765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CB02D29EAF5F3005AD765 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E5D398B29ECAF9F00D90C94 /* CityFilteredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityFilteredTests.swift; sourceTree = "<group>"; };
 		8E8CB02629EAF5F1005AD765 /* city-search-ios-calm-days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "city-search-ios-calm-days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8CB02929EAF5F1005AD765 /* city_search_ios_calm_daysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysApp.swift; sourceTree = "<group>"; };
 		8E8CB02B29EAF5F1005AD765 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				8E8CB03A29EAF5F4005AD765 /* city_search_ios_calm_daysTests.swift */,
+				8E5D398B29ECAF9F00D90C94 /* CityFilteredTests.swift */,
 			);
 			path = "city-search-ios-calm-daysTests";
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E8CB03B29EAF5F4005AD765 /* city_search_ios_calm_daysTests.swift in Sources */,
+				8E5D398C29ECAF9F00D90C94 /* CityFilteredTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

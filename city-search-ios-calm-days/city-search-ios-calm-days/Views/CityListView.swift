@@ -1,32 +1,30 @@
 import SwiftUI
 
 struct CityView: View {
-    @ObservedObject private var cityLoader = CityLoader()
+    @ObservedObject private var dataLoader = CityLoader()
     @State private var searchText = ""
     @State private var cityFilter = CityFilter()
     
     private var filteredCities: [City] {
-        return cityFilter.filteredCities(cityLoader: cityLoader, searchText: searchText)
+        return cityFilter.filteredCities(cityLoader: dataLoader, searchText: searchText)
     }
     
     var body: some View {
-        NavigationView {
-            if cityLoader.isLoading {
-                ProgressView("Loading...")
-                    .tint(.orange)
-                    .padding()
-            } else {
-                List {
-                    //delete prefix later
-                    ForEach(filteredCities) { city in
-                        NavigationLink {
-                            CityDetailedView(city: city)
-                        } label: {
-                            CityRow(city: city)
-                        }
+        if dataLoader.isLoading {
+            ProgressView("Loading...")
+                .tint(.orange)
+                .padding()
+        } else {
+            NavigationView {
+                //delete prefix later
+                List(filteredCities.prefix(3000)) { city in
+                    NavigationLink {
+                        CityDetailedView(city: city)
+                    } label: {
+                        CityRow(city: city)
                     }
                 }
-                .searchable(text: $searchText)
+                .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode:.always))
                 .navigationTitle("Search City")
             }
         }
