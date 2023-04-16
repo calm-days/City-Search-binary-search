@@ -18,6 +18,7 @@
 		8E5D39BD29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39BC29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift */; };
 		8E5D39CA29ECB3FA00D90C94 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E5D39C929ECB3FA00D90C94 /* cities.json */; };
 		8E5D39CC29ECB88000D90C94 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39CB29ECB88000D90C94 /* City.swift */; };
+		8E5D39CE29ECBCE300D90C94 /* CitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39CD29ECBCE200D90C94 /* CitiesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8E5D39BC29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8E5D39C929ECB3FA00D90C94 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cities.json; path = ../../cities.json; sourceTree = "<group>"; };
 		8E5D39CB29ECB88000D90C94 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		8E5D39CD29ECBCE200D90C94 /* CitiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +108,11 @@
 				8E5D399929ECB29500D90C94 /* AppDelegate.swift */,
 				8E5D399B29ECB29500D90C94 /* SceneDelegate.swift */,
 				8E5D399D29ECB29500D90C94 /* ViewController.swift */,
+				8E5D39CD29ECBCE200D90C94 /* CitiesController.swift */,
 				8E5D39CB29ECB88000D90C94 /* City.swift */,
 				8E5D399F29ECB29500D90C94 /* Main.storyboard */,
-				8E5D39A229ECB29900D90C94 /* Assets.xcassets */,
 				8E5D39A429ECB29900D90C94 /* LaunchScreen.storyboard */,
+				8E5D39A229ECB29900D90C94 /* Assets.xcassets */,
 				8E5D39A729ECB29900D90C94 /* Info.plist */,
 				8E5D39C929ECB3FA00D90C94 /* cities.json */,
 			);
@@ -268,6 +271,7 @@
 				8E5D399E29ECB29500D90C94 /* ViewController.swift in Sources */,
 				8E5D399A29ECB29500D90C94 /* AppDelegate.swift in Sources */,
 				8E5D39CC29ECB88000D90C94 /* City.swift in Sources */,
+				8E5D39CE29ECBCE300D90C94 /* CitiesController.swift in Sources */,
 				8E5D399C29ECB29500D90C94 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
