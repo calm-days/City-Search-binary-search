@@ -1,76 +1,44 @@
-# Mobile assignment RnD
+# RnD Mobile Assignment - City Search
 
-The goal of this assignment is to evaluate the problem solving skills, UX judgement and code quality of the candidate.
+## Project Overview
 
-We have a list of cities containing around 200k entries in JSON format. Each entry contains the following information:
+This project focuses on optimizing the search functionality for a large dataset, a JSON file containing over 200,000 city entities. The key optimization technique implemented is binary search, which significantly enhances search performance.
 
-```
-{
-    "country":"UA",
-    "name":"Hurzuf",
-    "_id":707860,
-    "coord":{
-            "lon":34.283333,
-        "lat":44.549999
-    }
-}
-```
+## View Controllers
 
-Your task is to:
-* Load the list of cities from [here](cities.json).
-* Be able to filter the results by a given prefix string, following these requirements:
-     * Follow the prefix definition specified in the clarifications section below.
-     * Implement a search algorithm optimised for fast runtime searches. Initial loading time of the app does not matter.
-     * Search is case insensitive.
-     * **Time efficiency for filter algorithm should be better than linear**
-* Display these cities in a scrollable list, in alphabetical order (city first, country after). Hence, "Denver, US" should appear before "Sydney, Australia".
-     * The UI should be as responsive as possible while typing in a filter.
-     * The list should be updated with every character added/removed to/from the filter.
-* Each city's cell should:
-     * Show the city and country code as title.
-     * Show the coordinates as subtitle.
-     * When tapped, show the location of that city on a map.
-* Provide unit tests showing that your search algorithm is displaying the correct results giving different inputs, including invalid inputs.
+The project consists of two primary view controllers: **CitiesViewController** and **MapViewController**.
 
-## Additional requirements/restrictions:
+### CitiesViewController
 
-* The list will be provided to you as a plain text JSON format array.
-* You can preprocess the list into any other representation that you consider more efficient
-for searches and display. Provide information of why that representation is more efficient
-in the comments of the code.
-* Database implementations are forbidden
-* Provide unit tests, that your search algorithm is displaying the correct results giving
-different inputs, including invalid inputs.
-* Alpha/beta versions of the IDE are forbidden, you must work with the stable version of
-the IDE
-* The code of the assignment has to be delivered along with the git repository (.git folder).
-We want to see the progress evolution
-* Screen rotation should be allowed 
-* Language must be Swift
-* Compatible with the 2 latest major versions of iOS
-* 3rd party libraries are forbidden.
+The **CitiesViewController** incorporates a _SearchController_ for carrying out searches and a _TableView_ for displaying search results. It utilizes a segue to transition to the **MapViewController** in order to display the selected city's map. The data for this controller is sourced from **CitiesController**.
 
-## Assessment:
-Once submitted, your solution will be checked on the requirements/restrictions mentioned above as well as:
-- Technical Skills
-- Documentation
-- Coding/Problem solving skills
-- Code Efficiency, Maintainability, Scalability
-- Architecture and Design Patterns
-- Version Control
-- Testing
-- Platform Knowledge
+### MapViewController
 
-## Clarifications
+A standard _ViewController_ that features an MKMapView. The city information is passed as a parameter from **CitiesViewController**. In this view, a pin is displayed on the map to represent the selected city's location.
 
-We define a prefix string as: a substring that matches the initial characters of the target string. For instance, assume the following entries:
+## Data Controllers
 
-* Alabama, US
-* Albuquerque, US
-* Anaheim, US
-* Arizona, US
-* Sydney, AU
+The project contains one data controller, named _CitiesController_.
 
-If the given prefix is "A", all cities but Sydney should appear. Contrariwise, if the given prefix is "s", the only result should be "Sydney, AU".
-If the given prefix is "Al", "Alabama, US" and "Albuquerque, US" are the only results.
-If the prefix given is "Alb" then the only result is "Albuquerque, US"
+### CitiesController
+
+_CitiesController_ employs a _shared_ instance due to the need for initialization.
+
+Originally, the intention was for the controller to return an array of results to _CitiesViewController_. However, considering the performance optimization requirements for handling over 200,000 items, all cities are maintained in the _cityList_ array, while the range of search results is stored in _searchResultsIndex_.
+
+Initially, filtering the _cityList_ array was slow. To enhance performance, the code was modified to keep all cities in the _cityList_ array and utilize _searchResultsIndex_ for maintaining the indexes of the first and last valid search elements. This improved performance.
+
+### Implementing Binary Search
+
+Searching items sequentially is slow and inefficient, especially since the _cityList_ array is already sorted. Consequently, binary search was implemented, resulting in a performance boost. This improvement significantly enhances the user experience by displaying **results instantly as the user types**.
+
+## Data models
+
+Two data models are included in the project: **City** and **Coordinates**:
+
+-   **City** is a _Codable_ struct containing the essential fields for the project. It also has the _formattedString_ property, which returns the required format for table cells, and _searchValue_, a lowercased version of _formattedString_. Since it is read multiple times during sorting and slowed down the app's loading time, its value is set by `CitiesController.parseSearchValues()` after loading all cities from the JSON file.
+-   **Coordinates** is a struct containing a city's latitude and longitude. The **City** class includes a `coordinate` property that uses the _lat_ and _lon_ values to return a proper `CLLocationCoordinate2D` object.
+
+## Unit Tests
+
+The project features tests for the _CitiesController_ class, including searches that cover valid results and those that return no results.
