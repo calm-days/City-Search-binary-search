@@ -51,7 +51,6 @@ extension CityViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return CitiesController.shared.resultsCount
-
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -60,9 +59,9 @@ extension CityViewController: UITableViewDataSource {
         let city = CitiesController.shared.cityWithOffset(offset: indexPath.row)
         cell.textLabel?.text = city.formattedString
         cell.detailTextLabel?.text = city.coord.formattedString
-
+        cell.accessoryType = .disclosureIndicator
+        
         return cell
-
     }
 }
 
@@ -77,8 +76,6 @@ extension CityViewController: UITableViewDelegate {
         let city = CitiesController.shared.cityWithOffset(offset: indexPath.row)
 
         performSegue(withIdentifier: "MapSegue", sender: city)
-        
-
     }
 }
 
