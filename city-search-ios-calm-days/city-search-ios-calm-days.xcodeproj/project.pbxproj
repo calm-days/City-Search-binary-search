@@ -19,6 +19,8 @@
 		8E5D39CA29ECB3FA00D90C94 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E5D39C929ECB3FA00D90C94 /* cities.json */; };
 		8E5D39CC29ECB88000D90C94 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39CB29ECB88000D90C94 /* City.swift */; };
 		8E5D39CE29ECBCE300D90C94 /* CitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39CD29ECBCE200D90C94 /* CitiesController.swift */; };
+		8E5D39D329ED5CC700D90C94 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39D229ED5CC700D90C94 /* CityViewController.swift */; };
+		8E5D39D529ED5CE800D90C94 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39D429ED5CE800D90C94 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		8E5D39C929ECB3FA00D90C94 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 		8E5D39CB29ECB88000D90C94 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		8E5D39CD29ECBCE200D90C94 /* CitiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesController.swift; sourceTree = "<group>"; };
+		8E5D39D229ED5CC700D90C94 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		8E5D39D429ED5CE800D90C94 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				8E5D399B29ECB29500D90C94 /* SceneDelegate.swift */,
 				8E5D399D29ECB29500D90C94 /* ViewController.swift */,
 				8E5D39CD29ECBCE200D90C94 /* CitiesController.swift */,
+				8E5D39D229ED5CC700D90C94 /* CityViewController.swift */,
+				8E5D39D429ED5CE800D90C94 /* MapViewController.swift */,
 				8E5D39CB29ECB88000D90C94 /* City.swift */,
 				8E5D39CF29ECBE9800D90C94 /* Storyboards */,
 				8E5D39A229ECB29900D90C94 /* Assets.xcassets */,
@@ -289,6 +295,8 @@
 				8E5D39CC29ECB88000D90C94 /* City.swift in Sources */,
 				8E5D39CE29ECBCE300D90C94 /* CitiesController.swift in Sources */,
 				8E5D399C29ECB29500D90C94 /* SceneDelegate.swift in Sources */,
+				8E5D39D329ED5CC700D90C94 /* CityViewController.swift in Sources */,
+				8E5D39D529ED5CE800D90C94 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
