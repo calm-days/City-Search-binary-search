@@ -9,29 +9,20 @@
 /* Begin PBXBuildFile section */
 		8E5D399A29ECB29500D90C94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D399929ECB29500D90C94 /* AppDelegate.swift */; };
 		8E5D399C29ECB29500D90C94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D399B29ECB29500D90C94 /* SceneDelegate.swift */; };
-		8E5D399E29ECB29500D90C94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D399D29ECB29500D90C94 /* ViewController.swift */; };
 		8E5D39A129ECB29500D90C94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5D399F29ECB29500D90C94 /* Main.storyboard */; };
 		8E5D39A329ECB29900D90C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5D39A229ECB29900D90C94 /* Assets.xcassets */; };
 		8E5D39A629ECB29900D90C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5D39A429ECB29900D90C94 /* LaunchScreen.storyboard */; };
 		8E5D39B129ECB29900D90C94 /* city_search_ios_calm_daysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39B029ECB29900D90C94 /* city_search_ios_calm_daysTests.swift */; };
-		8E5D39BB29ECB29900D90C94 /* city_search_ios_calm_daysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39BA29ECB29900D90C94 /* city_search_ios_calm_daysUITests.swift */; };
-		8E5D39BD29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39BC29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift */; };
 		8E5D39CA29ECB3FA00D90C94 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E5D39C929ECB3FA00D90C94 /* cities.json */; };
 		8E5D39CC29ECB88000D90C94 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39CB29ECB88000D90C94 /* City.swift */; };
 		8E5D39CE29ECBCE300D90C94 /* CitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39CD29ECBCE200D90C94 /* CitiesController.swift */; };
 		8E5D39D329ED5CC700D90C94 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39D229ED5CC700D90C94 /* CityViewController.swift */; };
 		8E5D39D529ED5CE800D90C94 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D39D429ED5CE800D90C94 /* MapViewController.swift */; };
+		8E9B056F29EDD266009D4B95 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B056E29EDD266009D4B95 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		8E5D39AD29ECB29900D90C94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8E5D398E29ECB29500D90C94 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8E5D399529ECB29500D90C94;
-			remoteInfo = "city-search-ios-calm-days";
-		};
-		8E5D39B729ECB29900D90C94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8E5D398E29ECB29500D90C94 /* Project object */;
 			proxyType = 1;
@@ -44,21 +35,19 @@
 		8E5D399629ECB29500D90C94 /* city-search-ios-calm-days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "city-search-ios-calm-days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5D399929ECB29500D90C94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E5D399B29ECB29500D90C94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E5D399D29ECB29500D90C94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8E5D39A029ECB29500D90C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E5D39A229ECB29900D90C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E5D39A529ECB29900D90C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E5D39A729ECB29900D90C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E5D39AC29ECB29900D90C94 /* city-search-ios-calm-daysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "city-search-ios-calm-daysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5D39B029ECB29900D90C94 /* city_search_ios_calm_daysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysTests.swift; sourceTree = "<group>"; };
-		8E5D39B629ECB29900D90C94 /* city-search-ios-calm-daysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "city-search-ios-calm-daysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E5D39BA29ECB29900D90C94 /* city_search_ios_calm_daysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysUITests.swift; sourceTree = "<group>"; };
-		8E5D39BC29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city_search_ios_calm_daysUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8E5D39C929ECB3FA00D90C94 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 		8E5D39CB29ECB88000D90C94 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		8E5D39CD29ECBCE200D90C94 /* CitiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesController.swift; sourceTree = "<group>"; };
 		8E5D39D229ED5CC700D90C94 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 		8E5D39D429ED5CE800D90C94 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8E9B056E29EDD266009D4B95 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		8E9B057029EDD2C6009D4B95 /* README-explanation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README-explanation.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,13 +65,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E5D39B329ECB29900D90C94 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,7 +73,6 @@
 			children = (
 				8E5D399829ECB29500D90C94 /* city-search-ios-calm-days */,
 				8E5D39AF29ECB29900D90C94 /* city-search-ios-calm-daysTests */,
-				8E5D39B929ECB29900D90C94 /* city-search-ios-calm-daysUITests */,
 				8E5D399729ECB29500D90C94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,7 +82,6 @@
 			children = (
 				8E5D399629ECB29500D90C94 /* city-search-ios-calm-days.app */,
 				8E5D39AC29ECB29900D90C94 /* city-search-ios-calm-daysTests.xctest */,
-				8E5D39B629ECB29900D90C94 /* city-search-ios-calm-daysUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,15 +91,15 @@
 			children = (
 				8E5D399929ECB29500D90C94 /* AppDelegate.swift */,
 				8E5D399B29ECB29500D90C94 /* SceneDelegate.swift */,
-				8E5D399D29ECB29500D90C94 /* ViewController.swift */,
-				8E5D39CD29ECBCE200D90C94 /* CitiesController.swift */,
-				8E5D39D229ED5CC700D90C94 /* CityViewController.swift */,
-				8E5D39D429ED5CE800D90C94 /* MapViewController.swift */,
-				8E5D39CB29ECB88000D90C94 /* City.swift */,
+				8E9B056D29EDD216009D4B95 /* ViewControllers */,
+				8E9B056C29EDD211009D4B95 /* Models */,
+				8E9B056B29EDD208009D4B95 /* Contollers */,
 				8E5D39CF29ECBE9800D90C94 /* Storyboards */,
+				8E5D39D029ECBEA700D90C94 /* Resources */,
 				8E5D39A229ECB29900D90C94 /* Assets.xcassets */,
 				8E5D39A729ECB29900D90C94 /* Info.plist */,
-				8E5D39D029ECBEA700D90C94 /* Resources */,
+				8E9B057029EDD2C6009D4B95 /* README-explanation.md */,
+				8E9B056E29EDD266009D4B95 /* README.md */,
 			);
 			path = "city-search-ios-calm-days";
 			sourceTree = "<group>";
@@ -130,15 +110,6 @@
 				8E5D39B029ECB29900D90C94 /* city_search_ios_calm_daysTests.swift */,
 			);
 			path = "city-search-ios-calm-daysTests";
-			sourceTree = "<group>";
-		};
-		8E5D39B929ECB29900D90C94 /* city-search-ios-calm-daysUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8E5D39BA29ECB29900D90C94 /* city_search_ios_calm_daysUITests.swift */,
-				8E5D39BC29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift */,
-			);
-			path = "city-search-ios-calm-daysUITests";
 			sourceTree = "<group>";
 		};
 		8E5D39CF29ECBE9800D90C94 /* Storyboards */ = {
@@ -156,6 +127,31 @@
 				8E5D39C929ECB3FA00D90C94 /* cities.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		8E9B056B29EDD208009D4B95 /* Contollers */ = {
+			isa = PBXGroup;
+			children = (
+				8E5D39CD29ECBCE200D90C94 /* CitiesController.swift */,
+			);
+			path = Contollers;
+			sourceTree = "<group>";
+		};
+		8E9B056C29EDD211009D4B95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E5D39CB29ECB88000D90C94 /* City.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E9B056D29EDD216009D4B95 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E5D39D229ED5CC700D90C94 /* CityViewController.swift */,
+				8E5D39D429ED5CE800D90C94 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,24 +192,6 @@
 			productReference = 8E5D39AC29ECB29900D90C94 /* city-search-ios-calm-daysTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8E5D39B529ECB29900D90C94 /* city-search-ios-calm-daysUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8E5D39C629ECB29900D90C94 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysUITests" */;
-			buildPhases = (
-				8E5D39B229ECB29900D90C94 /* Sources */,
-				8E5D39B329ECB29900D90C94 /* Frameworks */,
-				8E5D39B429ECB29900D90C94 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8E5D39B829ECB29900D90C94 /* PBXTargetDependency */,
-			);
-			name = "city-search-ios-calm-daysUITests";
-			productName = "city-search-ios-calm-daysUITests";
-			productReference = 8E5D39B629ECB29900D90C94 /* city-search-ios-calm-daysUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -228,10 +206,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					8E5D39AB29ECB29900D90C94 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 8E5D399529ECB29500D90C94;
-					};
-					8E5D39B529ECB29900D90C94 = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 8E5D399529ECB29500D90C94;
 					};
@@ -252,7 +226,6 @@
 			targets = (
 				8E5D399529ECB29500D90C94 /* city-search-ios-calm-days */,
 				8E5D39AB29ECB29900D90C94 /* city-search-ios-calm-daysTests */,
-				8E5D39B529ECB29900D90C94 /* city-search-ios-calm-daysUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -264,19 +237,13 @@
 			files = (
 				8E5D39CA29ECB3FA00D90C94 /* cities.json in Resources */,
 				8E5D39A629ECB29900D90C94 /* LaunchScreen.storyboard in Resources */,
+				8E9B056F29EDD266009D4B95 /* README.md in Resources */,
 				8E5D39A329ECB29900D90C94 /* Assets.xcassets in Resources */,
 				8E5D39A129ECB29500D90C94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8E5D39AA29ECB29900D90C94 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8E5D39B429ECB29900D90C94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E5D399E29ECB29500D90C94 /* ViewController.swift in Sources */,
 				8E5D399A29ECB29500D90C94 /* AppDelegate.swift in Sources */,
 				8E5D39CC29ECB88000D90C94 /* City.swift in Sources */,
 				8E5D39CE29ECBCE300D90C94 /* CitiesController.swift in Sources */,
@@ -308,15 +274,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E5D39B229ECB29900D90C94 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8E5D39BB29ECB29900D90C94 /* city_search_ios_calm_daysUITests.swift in Sources */,
-				8E5D39BD29ECB29900D90C94 /* city_search_ios_calm_daysUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -324,11 +281,6 @@
 			isa = PBXTargetDependency;
 			target = 8E5D399529ECB29500D90C94 /* city-search-ios-calm-days */;
 			targetProxy = 8E5D39AD29ECB29900D90C94 /* PBXContainerItemProxy */;
-		};
-		8E5D39B829ECB29900D90C94 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8E5D399529ECB29500D90C94 /* city-search-ios-calm-days */;
-			targetProxy = 8E5D39B729ECB29900D90C94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -479,6 +431,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,6 +460,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -562,42 +516,6 @@
 			};
 			name = Release;
 		};
-		8E5D39C729ECB29900D90C94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C493VDTW7S;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "calmdays.city-search-ios-calm-daysUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "city-search-ios-calm-days";
-			};
-			name = Debug;
-		};
-		8E5D39C829ECB29900D90C94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C493VDTW7S;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "calmdays.city-search-ios-calm-daysUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "city-search-ios-calm-days";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -624,15 +542,6 @@
 			buildConfigurations = (
 				8E5D39C429ECB29900D90C94 /* Debug */,
 				8E5D39C529ECB29900D90C94 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8E5D39C629ECB29900D90C94 /* Build configuration list for PBXNativeTarget "city-search-ios-calm-daysUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8E5D39C729ECB29900D90C94 /* Debug */,
-				8E5D39C829ECB29900D90C94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
