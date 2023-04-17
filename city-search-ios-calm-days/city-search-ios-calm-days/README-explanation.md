@@ -4,6 +4,8 @@
 
 This project focuses on optimizing the search functionality for a large dataset, a JSON file containing over 200,000 city entities. The key optimization technique implemented is binary search, which significantly enhances search performance.
 
+![city_search](https://user-images.githubusercontent.com/101954757/232603529-3442cdcf-4f0d-4bf2-8902-be5d377c28bb.png)
+
 ## View Controllers
 
 The project consists of two primary view controllers: **CitiesViewController** and **MapViewController**.
@@ -37,7 +39,7 @@ Searching items sequentially is slow and inefficient, especially since the _city
 Two data models are included in the project: **City** and **Coordinates**:
 
 -   **City** is a _Codable_ struct containing the essential fields for the project. It also has the _formattedString_ property, which returns the required format for table cells, and _searchValue_, a lowercased version of _formattedString_. Since it is read multiple times during sorting and slowed down the app's loading time, its value is set by `CitiesController.parseSearchValues()` after loading all cities from the JSON file.
--   **Coordinates** is a struct containing a city's latitude and longitude. The **City** class includes a `coordinate` property that uses the _lat_ and _lon_ values to return a proper `CLLocationCoordinate2D` object.
+-   **Coordinates** is a _Codable_ struct containing a city's latitude and longitude. The **City** class includes a `coordinate` property that uses the _lat_ and _lon_ values to return a proper `CLLocationCoordinate2D` object.
 
 ## Unit Tests
 
