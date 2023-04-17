@@ -4,6 +4,8 @@
 
 This project focuses on optimizing the search functionality for a large dataset, a JSON file containing over 200,000 city entities. The key optimization technique implemented is binary search, which significantly enhances search performance.
 
+![city_search](https://user-images.githubusercontent.com/101954757/232607575-6c646dda-529d-4fc0-b6df-d24e1bfce8a9.png)
+
 ## View Controllers
 
 The project consists of two primary view controllers: **CitiesViewController** and **MapViewController**.
