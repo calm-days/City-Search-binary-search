@@ -57,6 +57,8 @@ extension CityViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CityCell", for: indexPath)
 
         let city = CitiesController.shared.cityWithOffset(offset: indexPath.row)
+        //cell.textLabel?.font = UIFont.boldSystemFont(ofSize: UIFont.systemFontSize)
+        cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         cell.textLabel?.text = city.formattedString
         cell.detailTextLabel?.text = city.coord.formattedString
         cell.accessoryType = .disclosureIndicator
