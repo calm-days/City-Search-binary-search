@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-class CityViewController: UIViewController {
+final class CityViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     let searchController = UISearchController(searchResultsController: nil)
