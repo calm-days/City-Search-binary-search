@@ -1,4 +1,4 @@
-# RnD Mobile Assignment - City Search
+# City Search
 
 ## Project Overview
 
